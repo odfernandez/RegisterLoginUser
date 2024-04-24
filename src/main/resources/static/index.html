@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/Styles.css">
+    <script  src="./js/index.js"></script>
+    <title>Login</title>
+</head>
+<body>
+<form method="post" class="border">
+    <br>
+    <div class="headerL">
+        <h2>Iniciar Sesión</h2>
+    </div>
+    <hr>
+    <div class="bodyL">
+        <div>
+            <label>Usuario:</label>
+            <input type="text" class="input-form" id="txtUser" name="txtUser" placeholder="Digite Usuario" required/>
+        </div>
+        <br/>
+        <div>
+            <label>Contraseña:</label>
+            <input type="password" class="input-form" id="txtPassword" name="txtPassword" placeholder="Digite Contraseña" required/>
+        </div>
+        <br/>
+        <!-- <br/> -->
+        <!-- <button class="login" type="submit" onclick="showUser()"><a href="./home.html" class="a-inicio" >Ingresar</a></button> -->
+        <button class="login" type="submit" onclick="login()">Ingresar</button>
+        <br/>
+        <a href="#">¿Ólvido Contraseña?</a>
+    </div>
+</form>
+</body>
+</html>
